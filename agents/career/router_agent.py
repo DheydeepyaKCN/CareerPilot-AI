@@ -1,4 +1,4 @@
-from features.job_recommender import get_job_recommendations
+from agents.career.job_recommender import get_job_recommendations
 
 
 def route_query(user_input):

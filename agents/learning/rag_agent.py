@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 import json
 
-from retriever import retrieve_resources
+from agents.learning.retriever import retrieve_resources
 
 # -----------------------------
 # Load API Key

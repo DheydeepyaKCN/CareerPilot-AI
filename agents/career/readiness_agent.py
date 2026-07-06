@@ -2,7 +2,7 @@ from groq import Groq
 from dotenv import load_dotenv
 import os
 import json
-from scoring_engine import calculate_readiness
+from agents.career.scoring_engine import calculate_readiness
 
 load_dotenv()
 
