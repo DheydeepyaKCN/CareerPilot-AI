@@ -13,18 +13,25 @@ def load_courses():
 
 
 def retrieve_courses(query, level=None):
+
     df = load_courses()
 
-    print("\nQUERY:", query)
-    print("\nTOPICS IN DATA:")
-    print(df["topic"].tolist())
+    query = query.lower().strip()
 
-    query = str(query).lower().strip()
+    # Skill aliases
+    aliases = {
+        "html": "web development",
+        "css": "web development",
+        "javascript": "web development",
+        "js": "web development",
+        "data analysis": "data science",
+        "ml": "machine learning"
+    }
 
-    filtered = df[df["topic"].str.contains(query, na=False)]
+    if query in aliases:
+        query = aliases[query]
 
-    print("\nFILTERED RESULT:")
-    print(filtered)
+    filtered = df[df["topic"].str.contains(query, case=False, na=False)]
 
     return filtered.to_dict(orient="records")
 

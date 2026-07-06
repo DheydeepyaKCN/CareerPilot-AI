@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from features.router_agent import route_query
+from agents.career.router_agent import route_query
 
 app = Flask(__name__)
 

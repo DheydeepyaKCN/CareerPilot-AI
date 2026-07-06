@@ -1,4 +1,4 @@
-from event_logger import AGENT_LOG
+from agents.dashboard.event_logger import AGENT_LOG
 
 
 def show_collaboration():

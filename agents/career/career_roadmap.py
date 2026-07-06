@@ -1,5 +1,3 @@
-# features/career_roadmap.py
-
 def generate_career_roadmap(user_input):
     """
     Input: dict with skills, interest, year

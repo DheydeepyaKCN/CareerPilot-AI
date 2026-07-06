@@ -1,4 +1,6 @@
 .env
-.venv/
+temp_resume.pdf
+resume_report.txt
+skill_chart.png
 __pycache__/
 *.pyc
