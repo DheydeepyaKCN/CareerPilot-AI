@@ -1,0 +1,46 @@
+[
+  {
+    "skill": "Python",
+    "category": "Software Engineering",
+    "difficulty": "Beginner",
+    "duration": "3 weeks",
+    "resources": [
+      {
+        "title": "Python Official Tutorial",
+        "provider": "Python",
+        "url": "https://docs.python.org/3/tutorial/"
+      },
+      {
+        "title": "CS50 Python",
+        "provider": "Harvard",
+        "url": "https://cs50.harvard.edu/python/"
+      }
+    ]
+  },
+  {
+    "skill": "Docker",
+    "category": "Software Engineering",
+    "difficulty": "Intermediate",
+    "duration": "2 weeks",
+    "resources": [
+      {
+        "title": "Docker Get Started",
+        "provider": "Docker",
+        "url": "https://docs.docker.com/get-started/"
+      }
+    ]
+  },
+  {
+    "skill": "Leadership",
+    "category": "Management",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "resources": [
+      {
+        "title": "Leadership Foundations",
+        "provider": "LinkedIn Learning",
+        "url": "https://www.linkedin.com/learning/"
+      }
+    ]
+  }
+]
