@@ -11,7 +11,7 @@ CareerPilot AI is an AI-powered career guidance platform that helps students and
 - Extracts contact information.
 - Detects technical and soft skills.
 - Calculates ATS (Applicant Tracking System) Score.
-- Identifies the best career match.
+- Identifies the best carrer match.
 
 ## 🎯 Career Guidance
 - AI-based Skill Gap Analysis.
